@@ -7,7 +7,8 @@ public enum Pizza {
     MARGHERITA("Margherita", Arrays.asList("Tomato Sauce", "Mozzarella Cheese", "Basil")),
     PEPPERONI("Pepperoni", Arrays.asList("Tomato Sauce", "Mozzarella Cheese", "Pepperoni")),
     HAWAIIAN("Hawaiian", Arrays.asList("Tomato Sauce", "Mozzarella Cheese", "Ham", "Pineapple")),
-    VEGETARIAN("Vegetarian", Arrays.asList("Tomato Sauce", "Mozzarella Cheese", "Mushrooms", "Bell Peppers", "Onions"));
+    VEGETARIAN("Vegetarian", Arrays.asList("Tomato Sauce", "Mozzarella Cheese", "Mushrooms", "Bell Peppers", "Onions")),
+    FOUR_CHEESE("Four cheese", Arrays.asList("Chedder","Mozzarela", "Cheese #3", "Cheese #4"));
 
     private final String name;
     private final List<String> toppings;

@@ -5,7 +5,6 @@ package interfaces.bank;
  */
 public interface BankAccount {
 
-
     /**
      * Deposits the specified amount into the account.
      * @param amount the amount to deposit

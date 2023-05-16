@@ -1,8 +1,5 @@
 package enums.implementinterfaces;
 
-import enums.implementinterfaces.Drawable;
-import enums.implementinterfaces.Measurable;
-
 public enum Shape implements Measurable, Drawable {
     CIRCLE(10),
     SQUARE(20),
