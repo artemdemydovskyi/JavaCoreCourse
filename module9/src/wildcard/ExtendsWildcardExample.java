@@ -4,7 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ExtendsWildcardExample {
-    public static void printNumbers(List<? extends Number> list) {
+
+    public static <T extends Number> void printNumbers(List<T> list) {
+        for (Number num : list) {
+            System.out.println(num);
+        }
+    }
+
+    public static void printNumberss(List<? extends Number> list) {
         for (Number num : list) {
             System.out.println(num);
         }
