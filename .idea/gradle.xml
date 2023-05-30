@@ -5,11 +5,10 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/module10" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/module_10" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/module10" />
+            <option value="$PROJECT_DIR$/module_10" />
           </set>
         </option>
       </GradleProjectSettings>
