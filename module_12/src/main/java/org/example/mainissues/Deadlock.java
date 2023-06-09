@@ -28,15 +28,11 @@ public class Deadlock {
         final Friend gaston =
                 new Friend("Гастоне");
         new Thread(() -> {
-            // System.out.println("Thread 1");
             alphonse.bow(gaston);
-            // System.out.println("Th: gaston bowed to alphonse");
         }).start();
 
         new Thread(() -> {
-            //  System.out.println("Thread 2");
             gaston.bow(alphonse);
-            //  System.out.println("2.gaston waiting alph bowed");
         }).start();
     }
 }

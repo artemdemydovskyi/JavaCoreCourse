@@ -1,6 +1,5 @@
 package org.example.synchronization;
 
-import org.example.synchronization.SynchronizationExample;
 
 public class ThisVsMonitor {
     private int counter = 0;

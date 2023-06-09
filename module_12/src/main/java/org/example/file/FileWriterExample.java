@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class FileWriterExample {
-    private static final int THREAD_COUNT = 22;
+    private static final int THREAD_COUNT = 20;
     private static final int ITERATIONS = 10000;
     private static final String FILE_PATH_MULTI = "module_12/src/main/java/org/example/file/output-multi.txt";
     private static final String FILE_PATH_SINGLE = "module_12/src/main/java/org/example/file/output-single.txt";
